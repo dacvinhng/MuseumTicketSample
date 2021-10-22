@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A308D285271ED7B800C09AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D284271ED7B800C09AF0 /* AppDelegate.swift */; };
+		A308D287271ED7B800C09AF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D286271ED7B800C09AF0 /* SceneDelegate.swift */; };
+		A308D289271ED7B800C09AF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D288271ED7B800C09AF0 /* HomeViewController.swift */; };
+		A308D28C271ED7B800C09AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308D28A271ED7B800C09AF0 /* Main.storyboard */; };
+		A308D28E271ED7B900C09AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A308D28D271ED7B900C09AF0 /* Assets.xcassets */; };
+		A308D291271ED7B900C09AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308D28F271ED7B900C09AF0 /* LaunchScreen.storyboard */; };
+		A308D29C271ED7B900C09AF0 /* MuseumTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D29B271ED7B900C09AF0 /* MuseumTicketTests.swift */; };
+		A308D2A7271ED7B900C09AF0 /* MuseumTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308D2A6271ED7B900C09AF0 /* MuseumTicketUITests.swift */; };
+		A34C889F272126DE00C2B485 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C889D272126DE00C2B485 /* CartViewController.swift */; };
+		A34C88A0272126DE00C2B485 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34C889E272126DE00C2B485 /* CartViewController.xib */; };
+		A34C88A327212E9800C2B485 /* CheckOutSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C88A127212E9800C2B485 /* CheckOutSuccessViewController.swift */; };
+		A34C88A427212E9800C2B485 /* CheckOutSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34C88A227212E9800C2B485 /* CheckOutSuccessViewController.xib */; };
+		A34C88A72721538A00C2B485 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C88A52721538A00C2B485 /* CartTableViewCell.swift */; };
+		A34C88A82721538A00C2B485 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34C88A62721538A00C2B485 /* CartTableViewCell.xib */; };
+		A34C88AA27215EC700C2B485 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C88A927215EC700C2B485 /* Cart.swift */; };
+		A36C8C52271FBF1B0058A82E /* MenuBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C8C50271FBF1B0058A82E /* MenuBarCollectionViewCell.swift */; };
+		A36C8C53271FBF1B0058A82E /* MenuBarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A36C8C51271FBF1B0058A82E /* MenuBarCollectionViewCell.xib */; };
+		A36C8C56271FC3490058A82E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C8C55271FC3490058A82E /* Page.swift */; };
+		A36C8C59271FC42E0058A82E /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C8C57271FC42E0058A82E /* ContentViewController.swift */; };
+		A36C8C5A271FC42E0058A82E /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A36C8C58271FC42E0058A82E /* ContentViewController.xib */; };
+		A36C8C5D271FC73C0058A82E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36C8C5B271FC73C0058A82E /* ItemTableViewCell.swift */; };
+		A36C8C5E271FC73C0058A82E /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A36C8C5C271FC73C0058A82E /* ItemTableViewCell.xib */; };
+		A3D38A0C272066A9000FA536 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D38A0B272066A9000FA536 /* Item.swift */; };
+		A3D38A0F272078BC000FA536 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D38A0D272078BC000FA536 /* DetailViewController.swift */; };
+		A3D38A10272078BC000FA536 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D38A0E272078BC000FA536 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A308D298271ED7B900C09AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A308D279271ED7B800C09AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A308D280271ED7B800C09AF0;
+			remoteInfo = MuseumTicket;
+		};
+		A308D2A3271ED7B900C09AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A308D279271ED7B800C09AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A308D280271ED7B800C09AF0;
+			remoteInfo = MuseumTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A308D281271ED7B800C09AF0 /* MuseumTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseumTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A308D284271ED7B800C09AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A308D286271ED7B800C09AF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A308D288271ED7B800C09AF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A308D28B271ED7B800C09AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A308D28D271ED7B900C09AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A308D290271ED7B900C09AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A308D292271ED7B900C09AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A308D297271ED7B900C09AF0 /* MuseumTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A308D29B271ED7B900C09AF0 /* MuseumTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTicketTests.swift; sourceTree = "<group>"; };
+		A308D29D271ED7B900C09AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A308D2A2271ED7B900C09AF0 /* MuseumTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A308D2A6271ED7B900C09AF0 /* MuseumTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTicketUITests.swift; sourceTree = "<group>"; };
+		A308D2A8271ED7B900C09AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C889D272126DE00C2B485 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		A34C889E272126DE00C2B485 /* CartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		A34C88A127212E9800C2B485 /* CheckOutSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutSuccessViewController.swift; sourceTree = "<group>"; };
+		A34C88A227212E9800C2B485 /* CheckOutSuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckOutSuccessViewController.xib; sourceTree = "<group>"; };
+		A34C88A52721538A00C2B485 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		A34C88A62721538A00C2B485 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		A34C88A927215EC700C2B485 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		A36C8C50271FBF1B0058A82E /* MenuBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		A36C8C51271FBF1B0058A82E /* MenuBarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuBarCollectionViewCell.xib; sourceTree = "<group>"; };
+		A36C8C55271FC3490058A82E /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		A36C8C57271FC42E0058A82E /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		A36C8C58271FC42E0058A82E /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		A36C8C5B271FC73C0058A82E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		A36C8C5C271FC73C0058A82E /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		A3D38A0B272066A9000FA536 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A3D38A0D272078BC000FA536 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A3D38A0E272078BC000FA536 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A308D27E271ED7B800C09AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308D294271ED7B900C09AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308D29F271ED7B900C09AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A308D278271ED7B800C09AF0 = {
+			isa = PBXGroup;
+			children = (
+				A308D283271ED7B800C09AF0 /* MuseumTicket */,
+				A308D29A271ED7B900C09AF0 /* MuseumTicketTests */,
+				A308D2A5271ED7B900C09AF0 /* MuseumTicketUITests */,
+				A308D282271ED7B800C09AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A308D282271ED7B800C09AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A308D281271ED7B800C09AF0 /* MuseumTicket.app */,
+				A308D297271ED7B900C09AF0 /* MuseumTicketTests.xctest */,
+				A308D2A2271ED7B900C09AF0 /* MuseumTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A308D283271ED7B800C09AF0 /* MuseumTicket */ = {
+			isa = PBXGroup;
+			children = (
+				A3C74A2627227A4600075AC1 /* Storyboard */,
+				A36C8C54271FC3210058A82E /* ViewModel */,
+				A36C8C4F271FBEF10058A82E /* Cells */,
+				A36C8C4E271FBEDC0058A82E /* Controllers */,
+				A308D284271ED7B800C09AF0 /* AppDelegate.swift */,
+				A308D286271ED7B800C09AF0 /* SceneDelegate.swift */,
+				A308D28D271ED7B900C09AF0 /* Assets.xcassets */,
+				A308D292271ED7B900C09AF0 /* Info.plist */,
+			);
+			path = MuseumTicket;
+			sourceTree = "<group>";
+		};
+		A308D29A271ED7B900C09AF0 /* MuseumTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				A308D29B271ED7B900C09AF0 /* MuseumTicketTests.swift */,
+				A308D29D271ED7B900C09AF0 /* Info.plist */,
+			);
+			path = MuseumTicketTests;
+			sourceTree = "<group>";
+		};
+		A308D2A5271ED7B900C09AF0 /* MuseumTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A308D2A6271ED7B900C09AF0 /* MuseumTicketUITests.swift */,
+				A308D2A8271ED7B900C09AF0 /* Info.plist */,
+			);
+			path = MuseumTicketUITests;
+			sourceTree = "<group>";
+		};
+		A36C8C4E271FBEDC0058A82E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A36C8C57271FC42E0058A82E /* ContentViewController.swift */,
+				A36C8C58271FC42E0058A82E /* ContentViewController.xib */,
+				A3D38A0D272078BC000FA536 /* DetailViewController.swift */,
+				A3D38A0E272078BC000FA536 /* DetailViewController.xib */,
+				A34C889D272126DE00C2B485 /* CartViewController.swift */,
+				A34C889E272126DE00C2B485 /* CartViewController.xib */,
+				A34C88A127212E9800C2B485 /* CheckOutSuccessViewController.swift */,
+				A34C88A227212E9800C2B485 /* CheckOutSuccessViewController.xib */,
+				A308D288271ED7B800C09AF0 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A36C8C4F271FBEF10058A82E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A36C8C50271FBF1B0058A82E /* MenuBarCollectionViewCell.swift */,
+				A36C8C51271FBF1B0058A82E /* MenuBarCollectionViewCell.xib */,
+				A36C8C5B271FC73C0058A82E /* ItemTableViewCell.swift */,
+				A36C8C5C271FC73C0058A82E /* ItemTableViewCell.xib */,
+				A34C88A52721538A00C2B485 /* CartTableViewCell.swift */,
+				A34C88A62721538A00C2B485 /* CartTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A36C8C54271FC3210058A82E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A36C8C55271FC3490058A82E /* Page.swift */,
+				A3D38A0B272066A9000FA536 /* Item.swift */,
+				A34C88A927215EC700C2B485 /* Cart.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A3C74A2627227A4600075AC1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A308D28A271ED7B800C09AF0 /* Main.storyboard */,
+				A308D28F271ED7B900C09AF0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A308D280271ED7B800C09AF0 /* MuseumTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A308D2AB271ED7B900C09AF0 /* Build configuration list for PBXNativeTarget "MuseumTicket" */;
+			buildPhases = (
+				A308D27D271ED7B800C09AF0 /* Sources */,
+				A308D27E271ED7B800C09AF0 /* Frameworks */,
+				A308D27F271ED7B800C09AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseumTicket;
+			productName = MuseumTicket;
+			productReference = A308D281271ED7B800C09AF0 /* MuseumTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A308D296271ED7B900C09AF0 /* MuseumTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A308D2AE271ED7B900C09AF0 /* Build configuration list for PBXNativeTarget "MuseumTicketTests" */;
+			buildPhases = (
+				A308D293271ED7B900C09AF0 /* Sources */,
+				A308D294271ED7B900C09AF0 /* Frameworks */,
+				A308D295271ED7B900C09AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A308D299271ED7B900C09AF0 /* PBXTargetDependency */,
+			);
+			name = MuseumTicketTests;
+			productName = MuseumTicketTests;
+			productReference = A308D297271ED7B900C09AF0 /* MuseumTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A308D2A1271ED7B900C09AF0 /* MuseumTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A308D2B1271ED7B900C09AF0 /* Build configuration list for PBXNativeTarget "MuseumTicketUITests" */;
+			buildPhases = (
+				A308D29E271ED7B900C09AF0 /* Sources */,
+				A308D29F271ED7B900C09AF0 /* Frameworks */,
+				A308D2A0271ED7B900C09AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A308D2A4271ED7B900C09AF0 /* PBXTargetDependency */,
+			);
+			name = MuseumTicketUITests;
+			productName = MuseumTicketUITests;
+			productReference = A308D2A2271ED7B900C09AF0 /* MuseumTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A308D279271ED7B800C09AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A308D280271ED7B800C09AF0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A308D296271ED7B900C09AF0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A308D280271ED7B800C09AF0;
+					};
+					A308D2A1271ED7B900C09AF0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A308D280271ED7B800C09AF0;
+					};
+				};
+			};
+			buildConfigurationList = A308D27C271ED7B800C09AF0 /* Build configuration list for PBXProject "MuseumTicket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A308D278271ED7B800C09AF0;
+			productRefGroup = A308D282271ED7B800C09AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A308D280271ED7B800C09AF0 /* MuseumTicket */,
+				A308D296271ED7B900C09AF0 /* MuseumTicketTests */,
+				A308D2A1271ED7B900C09AF0 /* MuseumTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A308D27F271ED7B800C09AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C88A0272126DE00C2B485 /* CartViewController.xib in Resources */,
+				A36C8C5A271FC42E0058A82E /* ContentViewController.xib in Resources */,
+				A308D291271ED7B900C09AF0 /* LaunchScreen.storyboard in Resources */,
+				A3D38A10272078BC000FA536 /* DetailViewController.xib in Resources */,
+				A308D28E271ED7B900C09AF0 /* Assets.xcassets in Resources */,
+				A34C88A82721538A00C2B485 /* CartTableViewCell.xib in Resources */,
+				A308D28C271ED7B800C09AF0 /* Main.storyboard in Resources */,
+				A36C8C5E271FC73C0058A82E /* ItemTableViewCell.xib in Resources */,
+				A36C8C53271FBF1B0058A82E /* MenuBarCollectionViewCell.xib in Resources */,
+				A34C88A427212E9800C2B485 /* CheckOutSuccessViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308D295271ED7B900C09AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308D2A0271ED7B900C09AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A308D27D271ED7B800C09AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D38A0F272078BC000FA536 /* DetailViewController.swift in Sources */,
+				A308D289271ED7B800C09AF0 /* HomeViewController.swift in Sources */,
+				A34C88A327212E9800C2B485 /* CheckOutSuccessViewController.swift in Sources */,
+				A34C88AA27215EC700C2B485 /* Cart.swift in Sources */,
+				A34C88A72721538A00C2B485 /* CartTableViewCell.swift in Sources */,
+				A34C889F272126DE00C2B485 /* CartViewController.swift in Sources */,
+				A308D285271ED7B800C09AF0 /* AppDelegate.swift in Sources */,
+				A308D287271ED7B800C09AF0 /* SceneDelegate.swift in Sources */,
+				A36C8C52271FBF1B0058A82E /* MenuBarCollectionViewCell.swift in Sources */,
+				A3D38A0C272066A9000FA536 /* Item.swift in Sources */,
+				A36C8C59271FC42E0058A82E /* ContentViewController.swift in Sources */,
+				A36C8C5D271FC73C0058A82E /* ItemTableViewCell.swift in Sources */,
+				A36C8C56271FC3490058A82E /* Page.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308D293271ED7B900C09AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A308D29C271ED7B900C09AF0 /* MuseumTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308D29E271ED7B900C09AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A308D2A7271ED7B900C09AF0 /* MuseumTicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A308D299271ED7B900C09AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A308D280271ED7B800C09AF0 /* MuseumTicket */;
+			targetProxy = A308D298271ED7B900C09AF0 /* PBXContainerItemProxy */;
+		};
+		A308D2A4271ED7B900C09AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A308D280271ED7B800C09AF0 /* MuseumTicket */;
+			targetProxy = A308D2A3271ED7B900C09AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A308D28A271ED7B800C09AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A308D28B271ED7B800C09AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A308D28F271ED7B900C09AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A308D290271ED7B900C09AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A308D2A9271ED7B900C09AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A308D2AA271ED7B900C09AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A308D2AC271ED7B900C09AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLKZS67C5Z;
+				INFOPLIST_FILE = MuseumTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MuseumTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A308D2AD271ED7B900C09AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLKZS67C5Z;
+				INFOPLIST_FILE = MuseumTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MuseumTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A308D2AF271ED7B900C09AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuseumTicketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MuseumTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseumTicket.app/MuseumTicket";
+			};
+			name = Debug;
+		};
+		A308D2B0271ED7B900C09AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuseumTicketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MuseumTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseumTicket.app/MuseumTicket";
+			};
+			name = Release;
+		};
+		A308D2B2271ED7B900C09AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuseumTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MuseumTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseumTicket;
+			};
+			name = Debug;
+		};
+		A308D2B3271ED7B900C09AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuseumTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.MuseumTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseumTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A308D27C271ED7B800C09AF0 /* Build configuration list for PBXProject "MuseumTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A308D2A9271ED7B900C09AF0 /* Debug */,
+				A308D2AA271ED7B900C09AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A308D2AB271ED7B900C09AF0 /* Build configuration list for PBXNativeTarget "MuseumTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A308D2AC271ED7B900C09AF0 /* Debug */,
+				A308D2AD271ED7B900C09AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A308D2AE271ED7B900C09AF0 /* Build configuration list for PBXNativeTarget "MuseumTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A308D2AF271ED7B900C09AF0 /* Debug */,
+				A308D2B0271ED7B900C09AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A308D2B1271ED7B900C09AF0 /* Build configuration list for PBXNativeTarget "MuseumTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A308D2B2271ED7B900C09AF0 /* Debug */,
+				A308D2B3271ED7B900C09AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A308D279271ED7B800C09AF0 /* Project object */;
+}
