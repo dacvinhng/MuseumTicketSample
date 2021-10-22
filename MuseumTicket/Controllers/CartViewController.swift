@@ -148,34 +148,40 @@ extension CartViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40
+        if (Cart.shared.orderAll[section].count > 0) {
+            return 40
+        }
+        return 0
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 40))
-        
-        let titleSection = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
-        titleSection.text = Cart.shared.orderAll[section][0].groupName
-        titleSection.numberOfLines = 0
-        titleSection.textColor = .black
-        titleSection.font = .boldSystemFont(ofSize: 20)
-        titleSection.textAlignment = .left
-        titleSection.sizeToFit()
-        headerView.addSubview(titleSection)
-        titleSection.translatesAutoresizingMaskIntoConstraints = false
-        titleSection.leftAnchor.constraint(equalTo: headerView.leftAnchor, constant: 0).isActive = true
-        titleSection.topAnchor.constraint(equalTo: headerView.topAnchor, constant: 6).isActive = true
-        
-        let lineView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 1))
-        lineView.backgroundColor = .init(red: 222/255, green: 222/255, blue: 222/255, alpha: 1)
-        headerView.addSubview(lineView)
-        lineView.translatesAutoresizingMaskIntoConstraints = false
-        lineView.bottomAnchor.constraint(equalTo: headerView.bottomAnchor, constant: -1).isActive = true
-        lineView.leftAnchor.constraint(equalTo: headerView.leftAnchor, constant: 0).isActive = true
-        lineView.rightAnchor.constraint(equalTo: headerView.rightAnchor, constant: 0).isActive = true
-        lineView.heightAnchor.constraint(equalToConstant: 1).isActive = true
-        
-        return headerView
+        if (Cart.shared.orderAll[section].count > 0) {
+            let headerView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 40))
+            
+            let titleSection = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
+            titleSection.text = Cart.shared.orderAll[section][0].groupName
+            titleSection.numberOfLines = 0
+            titleSection.textColor = .black
+            titleSection.font = .boldSystemFont(ofSize: 20)
+            titleSection.textAlignment = .left
+            titleSection.sizeToFit()
+            headerView.addSubview(titleSection)
+            titleSection.translatesAutoresizingMaskIntoConstraints = false
+            titleSection.leftAnchor.constraint(equalTo: headerView.leftAnchor, constant: 0).isActive = true
+            titleSection.topAnchor.constraint(equalTo: headerView.topAnchor, constant: 6).isActive = true
+            
+            let lineView = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 1))
+            lineView.backgroundColor = .init(red: 222/255, green: 222/255, blue: 222/255, alpha: 1)
+            headerView.addSubview(lineView)
+            lineView.translatesAutoresizingMaskIntoConstraints = false
+            lineView.bottomAnchor.constraint(equalTo: headerView.bottomAnchor, constant: -1).isActive = true
+            lineView.leftAnchor.constraint(equalTo: headerView.leftAnchor, constant: 0).isActive = true
+            lineView.rightAnchor.constraint(equalTo: headerView.rightAnchor, constant: 0).isActive = true
+            lineView.heightAnchor.constraint(equalToConstant: 1).isActive = true
+            
+            return headerView
+        }
+        return nil
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
