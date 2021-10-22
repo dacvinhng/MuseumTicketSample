@@ -78,12 +78,12 @@ class HomeViewController: UIViewController {
 
     func setupSelectedTabView() {
         let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 10, height: 10))
-        label.text = ""
+        label.text = "Menu"
         label.sizeToFit()
         var width = label.intrinsicContentSize.width
-        width = width + 20
+        width = width + 40
         
-        selectedTabView.frame = CGRect(x: 20, y: 55, width: width, height: 5)
+        selectedTabView.frame = CGRect(x: 10, y: 55, width: width, height: 5)
         selectedTabView.backgroundColor = UIColor(red: 18/255, green: 50/255, blue: 98/255, alpha: 1)
         tabBarCollectionView.addSubview(selectedTabView)
     }
