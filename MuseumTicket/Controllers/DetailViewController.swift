@@ -324,7 +324,7 @@ class DetailViewController: UIViewController {
         plusBtn.widthAnchor.constraint(equalToConstant: 50).isActive = true
         
         let minusBtn = UIButton(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
-        minusBtn.backgroundColor = .init(red: 196/255, green: 196/255, blue: 196/255, alpha: 0.5)
+        minusBtn.backgroundColor = .init(red: 105/255, green: 105/255, blue: 105/255, alpha: 0.1)
         minusBtn.setTitle("-", for: .normal)
         minusBtn.titleLabel?.font = .boldSystemFont(ofSize: 20)
         minusBtn.setTitleColor(.init(red: 196/255, green: 196/255, blue: 196/255, alpha: 1), for: .normal)
