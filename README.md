@@ -1,2 +1,2 @@
 # MuseumTicketSample
-This iOS app sample about book museum ticket 
+This iOS app sample about booking museum ticket 
